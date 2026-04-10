@@ -1,0 +1,14 @@
+:root{
+--cor-fundo:rgb(218, 220, 223) ;
+--cor-forms: #bbbec3
+
+}
+
+body{
+background-color:  var(--cor-fundo);
+display: flex;
+justify-content: center;
+
+
+
+}
