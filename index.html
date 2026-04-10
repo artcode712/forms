@@ -1,65 +1,58 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabarito form</title>
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
 </head>
-
 <body>
 
-    <header>
+        <header>
+            <nav>
 
-        <nav>
+            </nav>
+        </header>
 
+        <main>
 
-        </nav>
+            <div class="container">
 
-    </header>
+                <h2 id="titulo">Login</h2>
 
+                <form id="form-login">
 
-    <main>
-        <div class="container">
+                    <div id="c-email" class="conjunto" >
+                         <label for="email">Email: </label>
+                         <input type="email" id="email" placeholder="Email" required>
+                    </div>
 
-            <h2 id="titulo"> Login </h2>
+                   <div id="c-senha" class="conjunto" >
+                         <label for="senha">Senha: </label>
+                         <input type="password" id="senha" placeholder="Password" required>
+                   </div>
 
+                <button id="botao-envio" type="submit">Entrar</button>
 
+                </form>
 
-            <form id="form-login">
-
-                <div id="c-email" classe="conjunto">
-                     <label for="email">Email: </label>
-                    <input type="email" id="email" placeholder="Email" required>
+                <div id="mensagem"></div>
+                <div class="toggle" id="toggle">
+                    <p>Não tem conta? Cadastra-se!</p>
                 </div>
-        </div id="c-senha" classe="conjunto">
-        <label for="senha">Senha: </label>
-        <input type="password" id="senha" placeholder="Senha" required>
-        </div>
-
-        <button id="botao-envio" type="submit">Entrar</button>
-
-        </form>
-
-        <div id="mensagem"></div>
-
-        <div class="toggle" id="toggle">
-            <p>Nao tem conta? Cadastre-se!</p>
-
-        </div>
-
-        </div>
-
-    </main>
-
-    <footer>
 
 
 
-    </footer>
 
-    <a href="script/script.js"></a>
+            </div>
+        </main>
 
+
+
+
+
+    
 </body>
 
+
+<script src="script/script.js"></script>
 </html>
